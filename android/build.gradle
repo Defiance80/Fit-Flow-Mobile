@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // keep your existing classpath entries here if any, for example:
+        // classpath "com.android.tools.build:gradle:7.4.2"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// ----------------- Apply config.gradle early -----------------
+// Apply config.gradle at root level to make properties available to all subprojects
+def configFile = file("config.gradle")
+if (configFile.exists()) {
+    apply from: configFile
+    println "Applied config.gradle with properties"
+}
+// ----------------- End config logic -----------------
+
+// keep your existing buildDir redirection & subprojects behavior
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

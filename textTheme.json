@@ -1,0 +1,92 @@
+{
+    "displayLarge": {
+        "fontSize": 57.0,
+        "lineHeight": 64.0,
+        "fontWeight": "regular",
+        "letterSpacing": -0.25
+    },
+    "displayMedium": {
+        "fontSize": 45.0,
+        "lineHeight": 52.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "displaySmall": {
+        "fontSize": 36.0,
+        "lineHeight": 44.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "headlineLarge": {
+        "fontSize": 32.0,
+        "lineHeight": 40.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "headlineMedium": {
+        "fontSize": 28.0,
+        "lineHeight": 36.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "headlineSmall": {
+        "fontSize": 24.0,
+        "lineHeight": 32.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "titleLarge": {
+        "fontSize": 22.0,
+        "lineHeight": 28.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.0
+    },
+    "titleMedium": {
+        "fontSize": 16.0,
+        "lineHeight": 24.0,
+        "fontWeight": "medium",
+        "letterSpacing": 0.15
+    },
+    "titleSmall": {
+        "fontSize": 14.0,
+        "lineHeight": 20.0,
+        "fontWeight": "medium",
+        "letterSpacing": 0.1
+    },
+    "bodyLarge": {
+        "fontSize": 16.0,
+        "lineHeight": 24.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.5
+    },
+    "bodyMedium": {
+        "fontSize": 14.0,
+        "lineHeight": 20.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.25
+    },
+    "bodySmall": {
+        "fontSize": 12.0,
+        "lineHeight": 16.0,
+        "fontWeight": "regular",
+        "letterSpacing": 0.4
+    },
+    "labelLarge": {
+        "fontSize": 14.0,
+        "lineHeight": 20.0,
+        "fontWeight": "medium",
+        "letterSpacing": 0.1
+    },
+    "labelMedium": {
+        "fontSize": 12.0,
+        "lineHeight": 16.0,
+        "fontWeight": "medium",
+        "letterSpacing": 0.5
+    },
+    "labelSmall": {
+        "fontSize": 11.0,
+        "lineHeight": 16.0,
+        "fontWeight": "medium",
+        "letterSpacing": 0.5
+    }
+}
