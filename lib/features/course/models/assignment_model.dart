@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/models/assignment_submission_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/models/assignment_submission_model.dart';
 
 class AssignmentGroupModel extends Model {
   final List<AssignmentChapter> chapters;

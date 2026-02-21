@@ -1,6 +1,6 @@
-import 'package:elms/common/models/course_language_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
+import 'package:fitflow/common/models/course_language_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
 
 class CourseLanguageRepository {
   Future<DataClass<CourseLanguageModel>> fetchCourseLanguages() async {

@@ -1,10 +1,10 @@
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_icons.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/authentication/cubit/authentication_cubit.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_icons.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/authentication/cubit/authentication_cubit.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

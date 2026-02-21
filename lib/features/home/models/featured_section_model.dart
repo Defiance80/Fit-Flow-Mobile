@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/instructor_model.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/instructor_model.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 
 class FeaturedSectionModel extends Model {
   final int id;

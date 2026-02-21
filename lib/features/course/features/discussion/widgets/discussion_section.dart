@@ -1,10 +1,10 @@
-import 'package:elms/common/models/message_model.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/common/widgets/custom_error_widget.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/course/cubits/fetch_discussion_cubit.dart';
-import 'package:elms/features/course/features/discussion/widgets/discussion_card.dart';
+import 'package:fitflow/common/models/message_model.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/common/widgets/custom_error_widget.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/course/cubits/fetch_discussion_cubit.dart';
+import 'package:fitflow/features/course/features/discussion/widgets/discussion_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

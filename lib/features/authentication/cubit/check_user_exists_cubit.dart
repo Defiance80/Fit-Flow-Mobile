@@ -1,4 +1,4 @@
-import 'package:elms/features/authentication/repository/auth_repository.dart';
+import 'package:fitflow/features/authentication/repository/auth_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class CheckMobileUserExistsState {}

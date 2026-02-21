@@ -1,6 +1,6 @@
-import 'package:elms/common/cubits/paginated_api_cubit.dart';
-import 'package:elms/common/models/instructor_model.dart';
-import 'package:elms/core/api/api_lists.dart';
+import 'package:fitflow/common/cubits/paginated_api_cubit.dart';
+import 'package:fitflow/common/models/instructor_model.dart';
+import 'package:fitflow/core/api/api_lists.dart';
 
 class InstructorCubit extends PaginatedApiCubit<InstructorModel> {
   final int? featureSectionId;

@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/common/models/message_model.dart';
-import 'package:elms/features/course/repositories/discussion_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/common/models/message_model.dart';
+import 'package:fitflow/features/course/repositories/discussion_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class FetchDiscussionState implements BaseState {}

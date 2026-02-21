@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/utils/ui_utils.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/utils/ui_utils.dart';
 import 'package:flutter/material.dart';
 
 class ExceptionHandler {

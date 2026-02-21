@@ -1,5 +1,5 @@
-// import 'package:elms/common/models/video_player_model.dart';
-// import 'package:elms/common/widgets/video_player_screen.dart';
+// import 'package:fitflow/common/models/video_player_model.dart';
+// import 'package:fitflow/common/widgets/video_player_screen.dart';
 // import 'package:flutter/material.dart';
 // import 'package:video_player/video_player.dart';
 

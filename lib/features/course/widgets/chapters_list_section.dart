@@ -1,10 +1,10 @@
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/common/models/course_details_model.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/course/cubit/course_details_cubit.dart';
-import 'package:elms/features/course/widgets/chapter_expansion_tile_widget.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/common/models/course_details_model.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/course/cubit/course_details_cubit.dart';
+import 'package:fitflow/features/course/widgets/chapter_expansion_tile_widget.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

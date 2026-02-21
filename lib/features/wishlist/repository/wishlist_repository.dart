@@ -1,7 +1,7 @@
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
 
 class WishlistRepository {
   Future<PaginatedDataClass<CourseModel>> getWishlistItems({

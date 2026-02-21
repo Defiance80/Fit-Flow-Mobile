@@ -1,4 +1,4 @@
-import 'package:elms/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
 import 'package:flutter/material.dart';
 
 class SearchSuggestionShimmer extends StatelessWidget {

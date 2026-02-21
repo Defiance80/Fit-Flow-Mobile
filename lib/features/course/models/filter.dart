@@ -1,4 +1,4 @@
-import 'package:elms/common/widgets/custom_expandable_tile.dart';
+import 'package:fitflow/common/widgets/custom_expandable_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,11 +1,11 @@
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/common/widgets/video_banner_container.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/utils/course_navigation_helper.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/common/widgets/video_banner_container.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/utils/course_navigation_helper.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

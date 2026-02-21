@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/features/home/models/slider_model.dart';
-import 'package:elms/features/home/repositories/slider_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/features/home/models/slider_model.dart';
+import 'package:fitflow/features/home/repositories/slider_repository.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 

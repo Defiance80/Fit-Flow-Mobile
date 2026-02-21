@@ -1,16 +1,16 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_list_dataclass.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/category/cubits/fetch_category_cubit.dart';
-import 'package:elms/features/category/widgets/category_shimmer.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_list_dataclass.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/category/cubits/fetch_category_cubit.dart';
+import 'package:fitflow/features/category/widgets/category_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
-import 'package:elms/common/widgets/custom_app_bar.dart';
-import 'package:elms/common/models/category_model.dart';
-import 'package:elms/common/widgets/category_card.dart';
+import 'package:fitflow/common/widgets/custom_app_bar.dart';
+import 'package:fitflow/common/models/category_model.dart';
+import 'package:fitflow/common/widgets/category_card.dart';
 
 class CategoryListScreen extends StatefulWidget {
   static Widget route() {

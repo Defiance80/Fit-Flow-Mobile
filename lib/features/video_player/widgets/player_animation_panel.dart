@@ -1,10 +1,10 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/widgets/custom_seek_bar.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/video_player/widgets/double_tap_animation.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/widgets/custom_seek_bar.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/video_player/widgets/double_tap_animation.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/src/extensions/export.dart';
 

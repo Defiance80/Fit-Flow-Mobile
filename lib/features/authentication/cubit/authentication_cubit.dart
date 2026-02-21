@@ -1,25 +1,25 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/common/models/user_model.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/core/login/apple_login.dart';
-import 'package:elms/core/login/google_login.dart';
-import 'package:elms/core/login/guest_checker.dart';
-import 'package:elms/core/login/login.dart';
-import 'package:elms/core/login/login_as_guest.dart';
-import 'package:elms/core/login/email_login.dart';
-import 'package:elms/core/login/phone_password_login.dart';
-import 'package:elms/features/authentication/repository/auth_repository.dart';
-import 'package:elms/utils/firebase_error_helper.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/common/models/user_model.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/core/login/apple_login.dart';
+import 'package:fitflow/core/login/google_login.dart';
+import 'package:fitflow/core/login/guest_checker.dart';
+import 'package:fitflow/core/login/login.dart';
+import 'package:fitflow/core/login/login_as_guest.dart';
+import 'package:fitflow/core/login/email_login.dart';
+import 'package:fitflow/core/login/phone_password_login.dart';
+import 'package:fitflow/features/authentication/repository/auth_repository.dart';
+import 'package:fitflow/utils/firebase_error_helper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:get/get.dart';
 
 int? forceResendingToken;

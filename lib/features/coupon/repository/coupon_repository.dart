@@ -1,9 +1,9 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/coupon/models/coupon_model.dart';
-import 'package:elms/features/coupon/models/promo_code_preview_model.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/coupon/models/coupon_model.dart';
+import 'package:fitflow/features/coupon/models/promo_code_preview_model.dart';
 
 class CouponRepository {
   Future<DataClass<CouponModel>> fetchCoupons({

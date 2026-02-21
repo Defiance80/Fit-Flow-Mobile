@@ -1,6 +1,6 @@
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/instructor/models/instructor_details_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/instructor/models/instructor_details_model.dart';
 
 /// Implementation of InstructorRepository
 class InstructorRepository {

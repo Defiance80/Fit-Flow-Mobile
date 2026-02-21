@@ -1,9 +1,9 @@
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/help_support/models/discussion_group.dart';
-import 'package:elms/features/help_support/models/discussion_question_model.dart';
-import 'package:elms/features/help_support/models/faq_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/help_support/models/discussion_group.dart';
+import 'package:fitflow/features/help_support/models/discussion_question_model.dart';
+import 'package:fitflow/features/help_support/models/faq_model.dart';
 
 class HelpDeskRepository {
   Future<DataClass<HelpDeskDiscussionGroupModel>> fetchGroups({

@@ -1,11 +1,11 @@
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/common/models/review_model.dart';
-import 'package:elms/common/models/user_review_model.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/features/course/models/course_review_response_model.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/common/models/review_model.dart';
+import 'package:fitflow/common/models/user_review_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/features/course/models/course_review_response_model.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class CourseReviewsState {}

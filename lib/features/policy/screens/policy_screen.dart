@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_app_bar.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/policy/cubit/policy_cubit.dart';
-import 'package:elms/features/policy/cubit/policy_state.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_app_bar.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/policy/cubit/policy_cubit.dart';
+import 'package:fitflow/features/policy/cubit/policy_state.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

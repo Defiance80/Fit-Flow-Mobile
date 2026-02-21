@@ -1,7 +1,7 @@
-import 'package:elms/features/video_player/bloc/video_player_bloc.dart';
-import 'package:elms/features/video_player/bloc/video_player_event.dart';
-import 'package:elms/features/video_player/bloc/video_player_state.dart';
-import 'package:elms/features/video_player/video_player.dart';
+import 'package:fitflow/features/video_player/bloc/video_player_bloc.dart';
+import 'package:fitflow/features/video_player/bloc/video_player_event.dart';
+import 'package:fitflow/features/video_player/bloc/video_player_state.dart';
+import 'package:fitflow/features/video_player/video_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

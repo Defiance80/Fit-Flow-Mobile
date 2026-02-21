@@ -1,4 +1,4 @@
-import 'package:elms/core/login/login.dart';
+import 'package:fitflow/core/login/login.dart';
 
 class GuestLoginParameters extends LoginParameters {
   @override

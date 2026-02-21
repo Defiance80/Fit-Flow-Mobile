@@ -1,8 +1,8 @@
-import 'package:elms/common/models/message_model.dart';
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/features/course/features/discussion/widgets/user_profile_tile.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/models/message_model.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/features/course/features/discussion/widgets/user_profile_tile.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class MessageCard extends StatelessWidget {

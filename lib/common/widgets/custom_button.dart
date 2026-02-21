@@ -1,6 +1,6 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/extensions/color_extension.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/color_extension.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {

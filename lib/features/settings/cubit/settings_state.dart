@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/settings/models/system_setting_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/settings/models/system_setting_model.dart';
 
 abstract class SettingsState extends BaseState {}
 

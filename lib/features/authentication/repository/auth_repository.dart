@@ -1,14 +1,14 @@
 // ignore_for_file: avoid_dynamic_calls
 
 import 'dart:io';
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/user_model.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/core/login/phone_password_login.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/user_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/core/login/phone_password_login.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 

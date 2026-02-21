@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/cart/models/place_order_response_model.dart';
-import 'package:elms/features/cart/repository/checkout_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/cart/models/place_order_response_model.dart';
+import 'package:fitflow/features/cart/repository/checkout_repository.dart';
 
 abstract class CheckoutState {}
 

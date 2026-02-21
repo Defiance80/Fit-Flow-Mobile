@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/features/search/models/search_suggestion_model.dart';
-import 'package:elms/features/search/repository/search_suggestion_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/features/search/models/search_suggestion_model.dart';
+import 'package:fitflow/features/search/repository/search_suggestion_repository.dart';
 
 class SearchSuggestionCubit extends Cubit<SearchSuggestionState> {
   final SearchSuggestionRepository _repository;

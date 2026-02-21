@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:elms/common/cubits/theme_cubit.dart';
-import 'package:elms/common/models/user_model.dart';
+import 'package:fitflow/common/cubits/theme_cubit.dart';
+import 'package:fitflow/common/models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 

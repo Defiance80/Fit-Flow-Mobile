@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/models/course_completion_model.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/models/course_completion_model.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CheckCourseCompletionStatusState {}

@@ -1,4 +1,4 @@
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 import 'package:flutter/material.dart';
 
 class Assignment extends Model {

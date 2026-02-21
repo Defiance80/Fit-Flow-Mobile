@@ -1,6 +1,6 @@
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

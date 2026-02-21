@@ -2,7 +2,7 @@
 import 'dart:async';
 import 'dart:collection';
 
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 
 class Quality {

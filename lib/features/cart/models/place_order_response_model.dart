@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 
 /// Order information from the API response
 class OrderModel extends Model {

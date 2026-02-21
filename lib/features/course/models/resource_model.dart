@@ -1,4 +1,4 @@
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 
 class ResourceModel extends Model {
   final String id;

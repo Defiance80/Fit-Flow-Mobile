@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/wallet/models/withdrawal_request_model.dart';
-import 'package:elms/features/wallet/repository/wallet_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/wallet/models/withdrawal_request_model.dart';
+import 'package:fitflow/features/wallet/repository/wallet_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class WithdrawalState {}

@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/models/resource_data_model.dart';
-import 'package:elms/features/course/repository/resource_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/models/resource_data_model.dart';
+import 'package:fitflow/features/course/repository/resource_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // Cubit

@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

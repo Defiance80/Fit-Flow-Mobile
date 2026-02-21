@@ -1,13 +1,13 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_dialog_box.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_colors.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/transaction/widgets/transaction_info_tile.dart';
-import 'package:elms/features/wallet/models/wallet_transaction_model.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
-import 'package:elms/utils/ui_utils.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_dialog_box.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_colors.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/transaction/widgets/transaction_info_tile.dart';
+import 'package:fitflow/features/wallet/models/wallet_transaction_model.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/utils/ui_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

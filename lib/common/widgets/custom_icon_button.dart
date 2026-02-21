@@ -1,6 +1,6 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_inkwell.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_inkwell.dart';
 import 'package:flutter/material.dart';
 
 class CustomIconButton extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:elms/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_client.dart';
 
 class TeamInvitationRepository {
   Future<Map<String, dynamic>> handleInvitation({

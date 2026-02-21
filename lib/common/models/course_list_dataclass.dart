@@ -1,5 +1,5 @@
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/common/models/category_model.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/common/models/category_model.dart';
 
 /// Abstract base class that defines the common structure for different types of course lists.
 /// This class serves as a contract for all course list implementations, ensuring they have

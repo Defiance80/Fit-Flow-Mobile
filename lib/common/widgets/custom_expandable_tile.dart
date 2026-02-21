@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_icons.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_icons.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class CustomExpandableTile extends StatefulWidget {

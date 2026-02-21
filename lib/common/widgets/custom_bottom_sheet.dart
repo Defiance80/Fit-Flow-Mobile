@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class CustomBottomSheet extends StatelessWidget {

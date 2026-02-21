@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:elms/core/theme/app_theme.dart';
+import 'package:fitflow/core/theme/app_theme.dart';
 
 abstract class ThemeState {
   abstract String key;

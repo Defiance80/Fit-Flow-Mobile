@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:elms/common/widgets/custom_bottom_sheet.dart';
+import 'package:fitflow/common/widgets/custom_bottom_sheet.dart';
 
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';

@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/recent_search_model.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/recent_search_model.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class RecentSearchesCubit extends Cubit<BaseState> {

@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:elms/utils/loader.dart';
+import 'package:fitflow/utils/loader.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/notification/repository/team_invitation_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/notification/repository/team_invitation_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class TeamInvitationState {}

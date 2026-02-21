@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/core/login/login.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
-import 'package:elms/utils/ui_utils.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/core/login/login.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/utils/ui_utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:get/utils.dart';

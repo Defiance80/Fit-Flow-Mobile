@@ -1,6 +1,6 @@
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/course/features/quiz/models/quiz_api_models.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/course/features/quiz/models/quiz_api_models.dart';
 
 class QuizRepository {
   /// Fetches quiz details with questions

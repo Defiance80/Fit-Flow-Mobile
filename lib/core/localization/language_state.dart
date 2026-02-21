@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/localization/get_language.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/localization/get_language.dart';
 
 abstract class LanguageState extends BaseState {}
 

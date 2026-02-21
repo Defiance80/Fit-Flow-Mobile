@@ -1,6 +1,6 @@
-import 'package:elms/common/models/message_model.dart';
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_text.dart';
+import 'package:fitflow/common/models/message_model.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class UserProfileTile extends StatelessWidget {

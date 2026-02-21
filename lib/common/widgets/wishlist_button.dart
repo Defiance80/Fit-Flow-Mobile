@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/core/constants/app_icons.dart';
-import 'package:elms/core/login/guest_checker.dart';
-import 'package:elms/features/wishlist/cubit/wishlist_action_cubit.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/core/constants/app_icons.dart';
+import 'package:fitflow/core/login/guest_checker.dart';
+import 'package:fitflow/features/wishlist/cubit/wishlist_action_cubit.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

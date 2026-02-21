@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/cart/models/cart_response_model.dart';
-import 'package:elms/features/cart/models/cart_summary_model.dart';
-import 'package:elms/features/coupon/models/promo_code_preview_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/cart/models/cart_response_model.dart';
+import 'package:fitflow/features/cart/models/cart_summary_model.dart';
+import 'package:fitflow/features/coupon/models/promo_code_preview_model.dart';
 
 class CheckoutDataModel extends Model {
   final List<CartCourseModel> courses;

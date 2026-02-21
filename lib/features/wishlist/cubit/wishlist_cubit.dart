@@ -1,7 +1,7 @@
-import 'package:elms/common/cubits/paginated_api_cubit.dart';
-import 'package:elms/common/cubits/paginated_api_states.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/core/api/api_client.dart';
+import 'package:fitflow/common/cubits/paginated_api_cubit.dart';
+import 'package:fitflow/common/cubits/paginated_api_states.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
 
 class FetchWishlistCubit extends PaginatedApiCubit<CourseModel> {
   FetchWishlistCubit() {

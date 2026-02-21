@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/utils/local_storage.dart';
 
 class UserModel extends Model {
   final int id;

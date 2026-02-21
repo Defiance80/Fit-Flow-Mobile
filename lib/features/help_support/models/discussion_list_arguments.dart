@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/help_support/models/discussion_topic.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/help_support/models/discussion_topic.dart';
 
 class DiscussionListArguments extends RouteArguments {
   final int groupId;

@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/core/localization/get_language.dart';
-import 'package:elms/core/localization/language_state.dart';
+import 'package:fitflow/core/localization/get_language.dart';
+import 'package:fitflow/core/localization/language_state.dart';
 
 class LanguageCubit extends Cubit<LanguageState> {
   final GetLanguage _getLanguage;

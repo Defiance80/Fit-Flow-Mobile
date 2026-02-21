@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/features/authentication/repository/auth_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/features/authentication/repository/auth_repository.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

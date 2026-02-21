@@ -1,17 +1,17 @@
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/help_support/models/discussion_group.dart';
-import 'package:elms/features/help_support/models/discussion_list_arguments.dart';
-import 'package:elms/features/help_support/models/discussion_topic.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/help_support/models/discussion_group.dart';
+import 'package:fitflow/features/help_support/models/discussion_list_arguments.dart';
+import 'package:fitflow/features/help_support/models/discussion_topic.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:elms/common/enums.dart';
+import 'package:fitflow/common/enums.dart';
 
 enum DiscussionCardVariant { vertical, horizontal }
 

@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/review_model.dart';
-import 'package:elms/common/models/user_review_model.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/review_model.dart';
+import 'package:fitflow/common/models/user_review_model.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 
 class CourseReviewResponseModel extends Model {
   final CourseInfo course;

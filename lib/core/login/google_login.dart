@@ -1,6 +1,6 @@
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/core/login/login.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/core/login/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 import 'package:google_sign_in/google_sign_in.dart';

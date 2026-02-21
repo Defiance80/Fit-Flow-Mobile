@@ -1,6 +1,6 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/constants/app_labels.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
 import 'package:get/get.dart';
 
 class TransactionHistoryModel extends Model {

@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_expandable_tile.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_expandable_tile.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 class FaqItemShimmer extends StatelessWidget {

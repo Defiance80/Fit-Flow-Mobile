@@ -1,6 +1,6 @@
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/policy/models/policy_settings_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/policy/models/policy_settings_model.dart';
 
 class PolicyRepository {
   Future<PolicySettingsModel> fetchPolicySettings({required String type}) async {

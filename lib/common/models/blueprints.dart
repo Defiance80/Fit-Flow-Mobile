@@ -1,13 +1,13 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:async';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/utils/extensions/scroll_extension.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/utils/extensions/scroll_extension.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/common/models/category_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/features/video_player/video_source.dart';
+import 'package:fitflow/common/models/category_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/features/video_player/video_source.dart';
 
 /// Base abstract class that serves as the foundation for all blueprint classes in the application.
 /// Blueprints define the contract and structure for different architectural components.

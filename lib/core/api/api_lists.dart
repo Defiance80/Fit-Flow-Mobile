@@ -1,4 +1,4 @@
-import 'package:elms/core/configs/app_settings.dart';
+import 'package:fitflow/core/configs/app_settings.dart';
 
 class Apis {
   Apis._();

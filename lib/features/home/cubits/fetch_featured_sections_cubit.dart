@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
-import 'package:elms/features/home/models/featured_section_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
+import 'package:fitflow/features/home/models/featured_section_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class FetchFeaturedSectionsState {}

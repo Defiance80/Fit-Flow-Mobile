@@ -1,4 +1,4 @@
-import 'package:elms/common/models/course_model.dart';
+import 'package:fitflow/common/models/course_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

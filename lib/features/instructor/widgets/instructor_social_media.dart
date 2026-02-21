@@ -1,7 +1,7 @@
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/features/instructor/models/instructor_details_model.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/features/instructor/models/instructor_details_model.dart';
 import 'package:flutter/material.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class InstructorSocialMedia extends StatelessWidget {

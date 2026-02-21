@@ -1,10 +1,10 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/core/login/phone_password_login.dart';
-import 'package:elms/features/authentication/screens/signup/signup_screen.dart';
-import 'package:elms/features/course/cubit/course_chapters_cubit.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/core/login/phone_password_login.dart';
+import 'package:fitflow/features/authentication/screens/signup/signup_screen.dart';
+import 'package:fitflow/features/course/cubit/course_chapters_cubit.dart';
 
 final class QuizResultParams extends RouteArguments {
   final QuizResult result;

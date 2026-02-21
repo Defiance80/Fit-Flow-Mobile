@@ -1,7 +1,7 @@
 // ignore_for_file: file_names
 
-import 'package:elms/core/constants/app_constant.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/core/constants/app_constant.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/error_management/exceptions.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 
 class SliderModel extends Model {
   final int id;

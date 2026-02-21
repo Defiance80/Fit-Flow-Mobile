@@ -1,15 +1,15 @@
 import 'dart:io';
-import 'package:elms/core/app.dart';
-import 'package:elms/core/localization/app_localization.dart';
-import 'package:elms/core/notification/notification_manager.dart';
-import 'package:elms/utils/local_storage.dart';
-import 'package:elms/utils/utils.dart';
+import 'package:fitflow/core/app.dart';
+import 'package:fitflow/core/localization/app_localization.dart';
+import 'package:fitflow/core/notification/notification_manager.dart';
+import 'package:fitflow/utils/local_storage.dart';
+import 'package:fitflow/utils/utils.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:elms/firebase_options.dart';
+import 'package:fitflow/firebase_options.dart';
 
 ///V-1.0.1
 Future<void> main() async {

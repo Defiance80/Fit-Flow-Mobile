@@ -1,4 +1,4 @@
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 
 /// Model for quiz attempt when starting a quiz
 class QuizAttemptModel extends Model {

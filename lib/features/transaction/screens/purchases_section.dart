@@ -1,9 +1,9 @@
-import 'package:elms/common/widgets/custom_error_widget.dart';
-import 'package:elms/common/widgets/custom_no_data_widget.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/transaction/cubits/fetch_transaction_history_cubit.dart';
-import 'package:elms/features/transaction/models/transaction_history_model.dart';
-import 'package:elms/features/transaction/widgets/transaction_card.dart';
+import 'package:fitflow/common/widgets/custom_error_widget.dart';
+import 'package:fitflow/common/widgets/custom_no_data_widget.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/transaction/cubits/fetch_transaction_history_cubit.dart';
+import 'package:fitflow/features/transaction/models/transaction_history_model.dart';
+import 'package:fitflow/features/transaction/widgets/transaction_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,5 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:elms/common/enums.dart';
+import 'package:fitflow/common/enums.dart';
 
 class CourseResourcesModel {
   final AllResources allResources;

@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:ui';
 
-import 'package:elms/core/localization/get_language.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/core/localization/get_language.dart';
+import 'package:fitflow/utils/local_storage.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 

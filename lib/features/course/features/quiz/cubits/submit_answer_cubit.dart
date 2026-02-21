@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/features/quiz/models/quiz_api_models.dart';
-import 'package:elms/features/course/features/quiz/repositories/quiz_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/features/quiz/models/quiz_api_models.dart';
+import 'package:fitflow/features/course/features/quiz/repositories/quiz_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class SubmitAnswerState {}

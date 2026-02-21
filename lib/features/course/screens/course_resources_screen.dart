@@ -1,9 +1,9 @@
-import 'package:elms/common/widgets/custom_app_bar.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/course/cubit/resource_cubit.dart';
-import 'package:elms/features/course/repository/resource_repository.dart';
-import 'package:elms/features/course/widgets/all_resources_section.dart';
-import 'package:elms/features/course/widgets/current_lecture_section.dart';
+import 'package:fitflow/common/widgets/custom_app_bar.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/course/cubit/resource_cubit.dart';
+import 'package:fitflow/features/course/repository/resource_repository.dart';
+import 'package:fitflow/features/course/widgets/all_resources_section.dart';
+import 'package:fitflow/features/course/widgets/current_lecture_section.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';

@@ -1,4 +1,4 @@
-import 'package:elms/features/help_support/models/discussion_message.dart';
+import 'package:fitflow/features/help_support/models/discussion_message.dart';
 
 enum GroupPrivacy { public, private }
 

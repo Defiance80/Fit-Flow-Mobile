@@ -1,5 +1,5 @@
 // Global enums here
-import 'package:elms/core/constants/app_colors.dart';
+import 'package:fitflow/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 
 enum AuthenticationType { apple, google, email, guest }

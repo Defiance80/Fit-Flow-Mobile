@@ -1,9 +1,9 @@
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/core/constants/app_constant.dart';
-import 'package:elms/core/routes/route_params.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/course/services/course_content_notifier.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/core/constants/app_constant.dart';
+import 'package:fitflow/core/routes/route_params.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/course/services/course_content_notifier.dart';
 import 'package:get/get.dart';
 
 class CourseNavigationHelper {

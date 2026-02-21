@@ -1,7 +1,7 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/video_player/video_source.dart';
-import 'package:elms/utils/utils.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/video_player/video_source.dart';
+import 'package:fitflow/utils/utils.dart';
 import 'package:flutter/material.dart';
 
 abstract class VideoPlayerEvent {}

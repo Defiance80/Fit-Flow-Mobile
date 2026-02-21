@@ -2,7 +2,7 @@
 
 import 'dart:ui';
 
-import 'package:elms/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
 
 enum DragDirection { left, right }

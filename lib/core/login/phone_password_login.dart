@@ -2,11 +2,11 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/user_model.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/login/login.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/user_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/login/login.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 final class PhoneNumber extends Model {

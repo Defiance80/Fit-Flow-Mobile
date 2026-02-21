@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:elms/utils/local_storage.dart';
+import 'package:fitflow/utils/local_storage.dart';
 
 class HeaderInterceptor extends Interceptor {
   @override

@@ -1,6 +1,6 @@
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
 
 class CommonApiRepository {
   static Future<PaginatedDataClass<T>> fetchPaginatedData<T>({

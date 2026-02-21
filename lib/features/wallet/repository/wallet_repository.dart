@@ -1,8 +1,8 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/features/wallet/models/wallet_transaction_model.dart';
-import 'package:elms/features/wallet/models/withdrawal_request_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/features/wallet/models/wallet_transaction_model.dart';
+import 'package:fitflow/features/wallet/models/withdrawal_request_model.dart';
 
 /// Repository for managing wallet operations
 /// Follows the Repository pattern extending Blueprint base class

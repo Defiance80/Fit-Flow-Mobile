@@ -1,12 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:io';
 
-import 'package:elms/common/models/user_model.dart';
+import 'package:fitflow/common/models/user_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/login/phone_password_login.dart'; 
-import 'package:elms/features/authentication/repository/auth_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/login/phone_password_login.dart'; 
+import 'package:fitflow/features/authentication/repository/auth_repository.dart';
 
 abstract class EditProfileState {}
 

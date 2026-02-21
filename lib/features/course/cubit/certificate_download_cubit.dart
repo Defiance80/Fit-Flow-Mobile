@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CertificateDownloadCubit extends Cubit<CertificateDownloadState> {

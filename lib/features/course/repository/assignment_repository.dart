@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/course/models/assignment_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/course/models/assignment_model.dart';
 
 class AssignmentRepository {
   Future<AssignmentGroupModel> fetchAssignmentSubmissionHistory({

@@ -1,8 +1,8 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/features/coupon/models/coupon_model.dart';
-import 'package:elms/features/coupon/repository/coupon_repository.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/features/coupon/models/coupon_model.dart';
+import 'package:fitflow/features/coupon/repository/coupon_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class FetchCouponsState {}

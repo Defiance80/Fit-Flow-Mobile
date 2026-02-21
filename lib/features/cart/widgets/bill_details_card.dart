@@ -1,9 +1,9 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_colors.dart';
-import 'package:elms/features/cart/models/cart_summary_model.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_colors.dart';
+import 'package:fitflow/features/cart/models/cart_summary_model.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

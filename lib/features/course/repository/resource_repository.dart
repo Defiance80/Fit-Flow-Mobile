@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/features/course/models/resource_data_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/features/course/models/resource_data_model.dart';
 
 class ResourceRepository extends Blueprint {
   Future<CourseResourcesModel> fetchResource({required int id}) async {

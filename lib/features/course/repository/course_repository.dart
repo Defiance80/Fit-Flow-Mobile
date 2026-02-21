@@ -1,16 +1,16 @@
 import 'dart:io';
 
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/course_details_model.dart';
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/course/models/course_completion_model.dart';
-import 'package:elms/features/course/models/purchase_certificate_response_model.dart';
-import 'package:elms/features/home/models/featured_section_model.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/course_details_model.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/course/models/course_completion_model.dart';
+import 'package:fitflow/features/course/models/purchase_certificate_response_model.dart';
+import 'package:fitflow/features/home/models/featured_section_model.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 import 'package:path_provider/path_provider.dart';
 
 extension type CourseParams(Map<String, dynamic> params) {}

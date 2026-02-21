@@ -1,6 +1,6 @@
 // ignore_for_file: unintended_html_in_doc_comment
 
-import 'package:elms/core/api/api_params.dart';
+import 'package:fitflow/core/api/api_params.dart';
 
 /// A generic wrapper class for list data responses (non-paginated)
 class DataClass<T> {

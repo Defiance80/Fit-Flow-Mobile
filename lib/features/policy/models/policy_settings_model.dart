@@ -1,4 +1,4 @@
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 
 class PolicySettingsModel extends Model {
   final String pageContent;

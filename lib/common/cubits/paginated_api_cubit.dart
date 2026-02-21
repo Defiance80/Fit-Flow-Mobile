@@ -1,7 +1,7 @@
-import 'package:elms/common/cubits/paginated_api_states.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/common/repositories/common_api_repsitory.dart';
-import 'package:elms/core/error_management/exceptions.dart';
+import 'package:fitflow/common/cubits/paginated_api_states.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/common/repositories/common_api_repsitory.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 abstract class PaginatedApiCubit<T> extends Cubit<PaginatedApiState> {

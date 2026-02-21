@@ -1,7 +1,7 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/common/widgets/custom_image.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
 import 'package:flutter/material.dart';
 
 class SocialLoginButton extends StatelessWidget {

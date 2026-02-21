@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/features/cart/models/cart_response_model.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/features/cart/models/cart_response_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
 
 /// Repository for managing cart-related data operations
 /// Follows the Repository pattern extending Blueprint base class

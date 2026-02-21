@@ -1,7 +1,7 @@
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 
-import 'package:elms/features/instructor/models/instructor_details_model.dart';
-import 'package:elms/features/instructor/repository/instructor_repository.dart';
+import 'package:fitflow/features/instructor/models/instructor_details_model.dart';
+import 'package:fitflow/features/instructor/repository/instructor_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class InstructorDetailsCubit extends Cubit<BaseState> {

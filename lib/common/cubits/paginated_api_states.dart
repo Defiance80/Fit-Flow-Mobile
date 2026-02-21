@@ -1,4 +1,4 @@
-import 'package:elms/core/error_management/exceptions.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
 
 abstract class PaginatedApiState {}
 

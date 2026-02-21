@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:app_links/app_links.dart';
-import 'package:elms/core/configs/app_settings.dart';
-import 'package:elms/core/routes/routes.dart';
+import 'package:fitflow/core/configs/app_settings.dart';
+import 'package:fitflow/core/routes/routes.dart';
 import 'package:get/get.dart';
 
 class DeepLinkManager {

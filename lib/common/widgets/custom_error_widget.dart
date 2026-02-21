@@ -1,8 +1,8 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/widgets/custom_image.dart';
-import 'package:elms/common/widgets/custom_no_internet_widget.dart';
-import 'package:elms/core/constants/app_icons.dart';
-import 'package:elms/core/constants/app_labels.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_no_internet_widget.dart';
+import 'package:fitflow/core/constants/app_icons.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

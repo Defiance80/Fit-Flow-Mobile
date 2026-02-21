@@ -1,18 +1,18 @@
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:elms/common/widgets/custom_popscope.dart';
-import 'package:elms/core/login/phone_password_login.dart';
-import 'package:elms/features/authentication/cubit/reset_password_cubit.dart';
-import 'package:elms/features/authentication/repository/auth_repository.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/validator.dart';
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/common/widgets/custom_text_form_field.dart';
-import 'package:elms/features/authentication/cubit/authentication_cubit.dart';
-import 'package:elms/features/authentication/widgets/adaptive_auth_field.dart';
+import 'package:fitflow/common/widgets/custom_popscope.dart';
+import 'package:fitflow/core/login/phone_password_login.dart';
+import 'package:fitflow/features/authentication/cubit/reset_password_cubit.dart';
+import 'package:fitflow/features/authentication/repository/auth_repository.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/validator.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/common/widgets/custom_text_form_field.dart';
+import 'package:fitflow/features/authentication/cubit/authentication_cubit.dart';
+import 'package:fitflow/features/authentication/widgets/adaptive_auth_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
-import 'package:elms/core/constants/app_labels.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   final bool isPhoneLogin;

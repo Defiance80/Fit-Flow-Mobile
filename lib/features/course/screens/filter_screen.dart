@@ -1,8 +1,8 @@
-import 'package:elms/common/widgets/custom_app_bar.dart';
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/common/widgets/rating_bar_widget.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/course/models/filter.dart';
+import 'package:fitflow/common/widgets/custom_app_bar.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/common/widgets/rating_bar_widget.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/course/models/filter.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,4 +1,4 @@
-import 'package:elms/utils/extensions/color_extension.dart';
+import 'package:fitflow/utils/extensions/color_extension.dart';
 import 'package:flutter/material.dart';
 
 class AppColors {
@@ -6,8 +6,8 @@ class AppColors {
 
   ///Light mode colors
   static const Color primaryColor = Color(
-    0xff5A5BB5,
-  ); // This would be main primary theme color
+    0xFF1E88E5,
+  ); // Blue - main primary theme color
   static const Color secondaryColor = Color(
     0xffffffff,
   ); //This would be card background color and fields background color
@@ -16,11 +16,15 @@ class AppColors {
   static const Color errorColor = Color(0xffDB3D26);
 
   ///Dark mode colors
-  static const Color darkPrimaryColor = Color.fromARGB(255, 114, 115, 211);
+  static const Color darkPrimaryColor = Color(0xFF1565C0); // Darker blue for dark mode
   static const Color darkSecondaryColor = Color.fromRGBO(120, 120, 120, 1);
   static const Color darkBackgroundColor = Color(0xff101010);
   static const Color darkBorderColor = Color.fromARGB(255, 52, 53, 54);
   static const Color darkErrorColor = Color(0xffDB3D26);
+
+  ///Accent colors
+  static const Color accentColor = Color(0xFFD4AF37); // Gold
+  static const Color darkAccentColor = Color(0xFFB8960C); // Dark gold
 
   ///Custom constant colors
   static const Color infoColor = Color(0xff0186D8);

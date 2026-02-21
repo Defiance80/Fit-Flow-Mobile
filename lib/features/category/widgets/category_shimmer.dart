@@ -1,6 +1,6 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
 import 'package:flutter/material.dart';
 
 class CategoryShimmer extends StatelessWidget implements IShimmer {

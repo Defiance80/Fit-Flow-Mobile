@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:elms/common/widgets/custom_image.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
 import 'package:flutter/material.dart';
 
 class CustomCarouselSliderWidget extends StatefulWidget {

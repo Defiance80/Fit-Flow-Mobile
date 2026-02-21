@@ -1,5 +1,5 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_model.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_model.dart';
 
 class PaymentDetails {
   final String? accountHolderName;

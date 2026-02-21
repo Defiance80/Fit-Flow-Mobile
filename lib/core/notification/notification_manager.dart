@@ -6,11 +6,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:elms/core/constants/app_constant.dart';
-import 'package:elms/core/routes/route_params.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
-import 'package:elms/features/course/services/course_content_notifier.dart';
+import 'package:fitflow/core/constants/app_constant.dart';
+import 'package:fitflow/core/routes/route_params.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
+import 'package:fitflow/features/course/services/course_content_notifier.dart';
 
 class NotificationManager {
   static bool initialized = false;

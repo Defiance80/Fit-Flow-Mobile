@@ -1,11 +1,11 @@
 
 import 'package:collection/collection.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/chapter_model.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
-import 'package:elms/utils/course_navigation_helper.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/chapter_model.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
+import 'package:fitflow/utils/course_navigation_helper.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CourseChaptersCubit extends Cubit<CourseChaptersState> {

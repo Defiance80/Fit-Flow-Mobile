@@ -1,6 +1,6 @@
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/features/course/features/quiz/models/quiz_summary_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/features/course/features/quiz/models/quiz_summary_model.dart';
 
 class QuizSummaryRepository {
   Future<QuizSummaryModel> fetchQuizSummary({

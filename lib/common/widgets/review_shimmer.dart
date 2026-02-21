@@ -1,5 +1,5 @@
-import 'package:elms/common/widgets/custom_card.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
 import 'package:flutter/material.dart';
 
 class ReviewShimmer extends StatelessWidget {

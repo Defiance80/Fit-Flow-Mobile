@@ -1,10 +1,10 @@
-import 'package:elms/common/cubits/paginated_api_states.dart';
-import 'package:elms/common/widgets/custom_app_bar.dart';
-import 'package:elms/common/widgets/custom_shimmer.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/instructor/cubit/instructor_cubit.dart';
-import 'package:elms/features/instructor/models/instructor_list_arguments.dart';
-import 'package:elms/features/instructor/widgets/instructor_card.dart';
+import 'package:fitflow/common/cubits/paginated_api_states.dart';
+import 'package:fitflow/common/widgets/custom_app_bar.dart';
+import 'package:fitflow/common/widgets/custom_shimmer.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/instructor/cubit/instructor_cubit.dart';
+import 'package:fitflow/features/instructor/models/instructor_list_arguments.dart';
+import 'package:fitflow/features/instructor/widgets/instructor_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/route_manager.dart';

@@ -1,7 +1,7 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/repositories/review_repository.dart';
-import 'package:elms/core/error_management/exceptions.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/repositories/review_repository.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 final class ReviewInitial extends BaseState {}

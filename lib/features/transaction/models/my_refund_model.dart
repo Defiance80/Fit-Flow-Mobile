@@ -1,5 +1,5 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/models/blueprints.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/models/blueprints.dart';
 
 class MyRefundModel extends Model {
   final int id;

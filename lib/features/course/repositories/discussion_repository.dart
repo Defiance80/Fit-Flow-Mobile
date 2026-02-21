@@ -1,8 +1,8 @@
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/common/models/message_model.dart';
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/utils/extensions/data_type_extensions.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/common/models/message_model.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/utils/extensions/data_type_extensions.dart';
 
 class DiscussionRepository {
   Future<PaginatedDataClass<DiscussionModel>> fetch({

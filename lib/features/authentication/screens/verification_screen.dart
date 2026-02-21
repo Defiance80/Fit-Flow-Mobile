@@ -1,19 +1,19 @@
 import 'dart:async';
-import 'package:elms/common/enums.dart';
-import 'package:elms/common/widgets/custom_popscope.dart';
-import 'package:elms/core/login/phone_password_login.dart';
-import 'package:elms/core/routes/route_params.dart';
-import 'package:elms/utils/loader.dart';
-import 'package:elms/utils/countdown_timer.dart';
-import 'package:elms/common/widgets/custom_button.dart';
-import 'package:elms/core/configs/app_settings.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/authentication/cubit/authentication_cubit.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/common/widgets/custom_popscope.dart';
+import 'package:fitflow/core/login/phone_password_login.dart';
+import 'package:fitflow/core/routes/route_params.dart';
+import 'package:fitflow/utils/loader.dart';
+import 'package:fitflow/utils/countdown_timer.dart';
+import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/core/configs/app_settings.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/authentication/cubit/authentication_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:elms/core/constants/app_labels.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
 
 extension type VerificationDestination(String route) {}
 

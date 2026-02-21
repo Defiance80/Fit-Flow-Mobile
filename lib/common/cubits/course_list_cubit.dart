@@ -1,13 +1,13 @@
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_list_dataclass.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/models/data_class.dart';
-import 'package:elms/core/api/api_params.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/features/course/cubits/fetch_course_languages_cubit.dart';
-import 'package:elms/features/course/models/filter.dart';
-import 'package:elms/features/course/repository/course_repository.dart';
-import 'package:elms/features/course/screens/filter_screen.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_list_dataclass.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/models/data_class.dart';
+import 'package:fitflow/core/api/api_params.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/features/course/cubits/fetch_course_languages_cubit.dart';
+import 'package:fitflow/features/course/models/filter.dart';
+import 'package:fitflow/features/course/repository/course_repository.dart';
+import 'package:fitflow/features/course/screens/filter_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 

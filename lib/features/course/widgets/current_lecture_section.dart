@@ -1,7 +1,7 @@
-import 'package:elms/common/widgets/custom_no_data_widget.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/features/course/cubit/resource_cubit.dart';
-import 'package:elms/features/course/widgets/resource_tile.dart';
+import 'package:fitflow/common/widgets/custom_no_data_widget.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/features/course/cubit/resource_cubit.dart';
+import 'package:fitflow/features/course/widgets/resource_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

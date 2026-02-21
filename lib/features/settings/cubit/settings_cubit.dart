@@ -1,7 +1,7 @@
-import 'package:elms/features/settings/models/system_setting_model.dart';
+import 'package:fitflow/features/settings/models/system_setting_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:elms/features/settings/cubit/settings_state.dart';
-import 'package:elms/features/settings/repository/settings_repository.dart';
+import 'package:fitflow/features/settings/cubit/settings_state.dart';
+import 'package:fitflow/features/settings/repository/settings_repository.dart';
 
 class SettingsCubit extends Cubit<SettingsState> {
   final SettingsRepository _repository;

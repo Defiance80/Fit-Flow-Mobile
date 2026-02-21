@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:elms/core/constants/app_constant.dart';
-import 'package:elms/core/error_management/exceptions.dart';
+import 'package:fitflow/core/constants/app_constant.dart';
+import 'package:fitflow/core/error_management/exceptions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

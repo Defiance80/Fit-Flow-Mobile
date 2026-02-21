@@ -1,4 +1,4 @@
-import 'package:elms/core/constants/app_labels.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 

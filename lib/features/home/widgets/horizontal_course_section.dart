@@ -1,21 +1,21 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:elms/common/models/instructor_model.dart';
-import 'package:elms/features/instructor/models/instructor_list_arguments.dart';
-import 'package:elms/features/instructor/widgets/instructor_card.dart';
+import 'package:fitflow/common/models/instructor_model.dart';
+import 'package:fitflow/features/instructor/models/instructor_list_arguments.dart';
+import 'package:fitflow/features/instructor/widgets/instructor_card.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:elms/common/models/blueprints.dart';
-import 'package:elms/common/models/course_list_dataclass.dart';
-import 'package:elms/common/models/course_model.dart';
-import 'package:elms/common/widgets/course_card.dart';
-import 'package:elms/common/widgets/custom_text.dart';
-import 'package:elms/core/constants/app_constant.dart';
-import 'package:elms/core/constants/app_labels.dart';
-import 'package:elms/core/routes/routes.dart';
-import 'package:elms/features/home/models/featured_section_model.dart';
-import 'package:elms/utils/extensions/context_extension.dart';
-import 'package:elms/utils/course_navigation_helper.dart';
+import 'package:fitflow/common/models/blueprints.dart';
+import 'package:fitflow/common/models/course_list_dataclass.dart';
+import 'package:fitflow/common/models/course_model.dart';
+import 'package:fitflow/common/widgets/course_card.dart';
+import 'package:fitflow/common/widgets/custom_text.dart';
+import 'package:fitflow/core/constants/app_constant.dart';
+import 'package:fitflow/core/constants/app_labels.dart';
+import 'package:fitflow/core/routes/routes.dart';
+import 'package:fitflow/features/home/models/featured_section_model.dart';
+import 'package:fitflow/utils/extensions/context_extension.dart';
+import 'package:fitflow/utils/course_navigation_helper.dart';
 
 class HorizontalCourseSection extends FeaturedSection<Model> {
   final FeaturedSectionModel section;

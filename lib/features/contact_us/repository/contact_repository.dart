@@ -1,5 +1,5 @@
-import 'package:elms/core/api/api_client.dart';
-import 'package:elms/core/api/api_params.dart';
+import 'package:fitflow/core/api/api_client.dart';
+import 'package:fitflow/core/api/api_params.dart';
 
 class ContactRepository {
   Future<Map<String, dynamic>> submitContactForm({

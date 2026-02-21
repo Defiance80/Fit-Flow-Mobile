@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:ui';
 
-import 'package:elms/common/models/language_model.dart';
-import 'package:elms/features/settings/cubit/settings_cubit.dart';
+import 'package:fitflow/common/models/language_model.dart';
+import 'package:fitflow/features/settings/cubit/settings_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 

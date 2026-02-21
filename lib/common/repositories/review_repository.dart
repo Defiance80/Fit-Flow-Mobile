@@ -1,5 +1,5 @@
-import 'package:elms/common/enums.dart';
-import 'package:elms/core/api/api_client.dart';
+import 'package:fitflow/common/enums.dart';
+import 'package:fitflow/core/api/api_client.dart';
 
 class ReviewRepository {
   Future<Map<dynamic, dynamic>> addReview({
