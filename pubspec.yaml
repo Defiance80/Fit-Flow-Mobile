@@ -81,6 +81,7 @@ flutter:
     - assets/images/quiz.png
     - assets/images/certificate_bg.png
     - assets/images/wallet_bg.png
+    - assets/fitflow-logo.png
 
 
   fonts:

@@ -2,7 +2,7 @@ abstract class AppIcons {
   AppIcons._();
 
   ///add icons here
-  static final String appLogo = _getSvg('splash_logo');
+  static final String appLogo = 'assets/fitflow-logo.png';
   static final String onboardingBackground = _getSvg('onboarding_bg');
   static final String arrowRight = _getSvg('arrow_right');
   static final String onboarding1 = _getSvg('onboarding_1');

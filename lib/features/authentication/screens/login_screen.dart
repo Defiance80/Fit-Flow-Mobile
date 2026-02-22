@@ -13,6 +13,7 @@ import 'package:fitflow/utils/text_formatters.dart';
 import 'package:fitflow/utils/ui_utils.dart';
 import 'package:fitflow/utils/validator.dart';
 import 'package:fitflow/common/widgets/custom_button.dart';
+import 'package:fitflow/common/widgets/custom_image.dart';
 import 'package:fitflow/common/widgets/custom_text_form_field.dart';
 import 'package:fitflow/core/constants/app_icons.dart';
 import 'package:fitflow/core/constants/app_labels.dart';
@@ -291,7 +292,16 @@ class _LoginScreenState extends State<LoginScreen> {
                             title: AppLabels.skip.tr,
                           ),
                         ),
-                        const SizedBox(height: 30),
+                        const SizedBox(height: 16),
+                        Center(
+                          child: CustomImage(
+                            AppIcons.appLogo,
+                            width: 120,
+                            height: 80,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                        const SizedBox(height: 24),
                         SizedBox(
                           width: context.screenWidth,
                           child: Column(
