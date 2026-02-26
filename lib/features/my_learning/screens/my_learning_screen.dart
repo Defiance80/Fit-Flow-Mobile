@@ -181,7 +181,9 @@ class _MyLearningTabViewState extends State<_MyLearningTabView>
                     child: SizedBox(
                       height: constraints.maxHeight,
                       child: const Center(
-                        child: CustomNoDataWidget(),
+                        child: CustomNoDataWidget(
+                          titleKey: "my_learning_empty",
+                        ),
                       ),
                     ),
                   );

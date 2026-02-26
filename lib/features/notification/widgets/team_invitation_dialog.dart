@@ -62,7 +62,7 @@ class TeamInvitationDialog extends StatelessWidget {
       },
       builder: (context, state) {
         final bool isLoading = state is TeamInvitationInProgress;
-        final String teamName = notification.instructorDetails?.name ?? 'Team';
+        final String teamName = notification.instructorDetails?.name ?? 'Trainer';
 
         return CustomDialogBox(
           title: AppLabels.teamInvitation.tr,
