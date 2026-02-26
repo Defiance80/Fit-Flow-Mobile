@@ -1,4 +1,4 @@
-package com.gokoncentrate.fitflow
+package com.fitflow.app
 import android.os.Bundle
 import android.view.WindowManager
 import io.flutter.embedding.android.FlutterActivity

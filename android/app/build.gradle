@@ -14,7 +14,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.gokoncentrate.fitflow"
+    namespace = "com.fitflow.app"
     compileSdk = flutter.compileSdkVersion
     //ndkVersion = flutter.ndkVersion
     ndkVersion = "27.0.12077973"
@@ -29,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.gokoncentrate.fitflow"
+        applicationId = "com.fitflow.app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 24
