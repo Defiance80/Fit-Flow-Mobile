@@ -296,9 +296,22 @@ class _LoginScreenState extends State<LoginScreen> {
                         Center(
                           child: CustomImage(
                             AppIcons.appLogo,
-                            width: 120,
-                            height: 80,
+                            width: 160,
+                            height: 100,
                             fit: BoxFit.contain,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        Center(
+                          child: Text(
+                            'Welcome to Fit Flow',
+                            style: Theme.of(context)
+                                .textTheme
+                                .headlineSmall
+                                ?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                  color: context.color.primary,
+                                ),
                           ),
                         ),
                         const SizedBox(height: 24),

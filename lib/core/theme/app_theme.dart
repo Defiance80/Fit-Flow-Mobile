@@ -20,6 +20,11 @@ class AppTheme {
           error: AppColors.errorColor,
           onError: AppColors.secondaryColor),
       dividerTheme: const DividerThemeData(color: AppColors.borderColor),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: AppColors.backgroundColor,
+        elevation: 0,
+        centerTitle: true,
+      ),
     ))
       ..isDarkMode = false;
   }
@@ -30,6 +35,11 @@ class AppTheme {
       useMaterial3: true,
       scaffoldBackgroundColor: AppColors.darkBackgroundColor,
       dividerTheme: const DividerThemeData(color: AppColors.darkBorderColor),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: AppColors.darkBackgroundColor,
+        elevation: 0,
+        centerTitle: true,
+      ),
       colorScheme: const ColorScheme.dark().copyWith(
           primary: AppColors.darkPrimaryColor,
           surface: AppColors.darkBackgroundColor.brighten(0.06),
