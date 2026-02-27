@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:334212861631:android:e0ec2eedaa87870226000a",
+        "android_client_info": {
+          "package_name": "com.fitflow.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtZcTNmwWDLG1usoToASo-RIWPemKH-WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:334212861631:android:d703fbed0ada1b2e26000a",
         "android_client_info": {
           "package_name": "com.fitflow.app"
