@@ -45,6 +45,7 @@ import 'package:fitflow/features/transaction/screens/purchase_history_screen.dar
 import 'package:fitflow/features/wallet/screens/wallet_screen.dart';
 import 'package:fitflow/features/policy/screens/policy_screen.dart';
 import 'package:fitflow/features/contact_us/screens/contact_us_screen.dart';
+import 'package:fitflow/features/health/screens/health_consent_screen.dart';
 import 'package:fitflow/features/health/screens/health_dashboard_screen.dart';
 import 'package:fitflow/features/settings/screens/maintenance_mode_screen.dart';
 
@@ -100,6 +101,7 @@ abstract class AppRoutes {
   static const String contactUsScreen = '/contact-us';
   static const String maintenanceModeScreen = '/maintenance-mode';
   static const String healthDashboard = '/health-dashboard';
+  static const String healthConsent = '/health-consent';
 
   static final List<GetPage> pages = <GetPage>[
     GetPage(name: splashScreen, page: SplashScreen.route),
@@ -159,6 +161,7 @@ abstract class AppRoutes {
     GetPage(name: contactUsScreen, page: ContactUsScreen.route),
     GetPage(name: maintenanceModeScreen, page: MaintenanceModeScreen.route),
     GetPage(name: healthDashboard, page: () => HealthDashboardScreen.route()),
+    GetPage(name: healthConsent, page: () => HealthConsentScreen(onConsented: () => Get.offNamed(AppRoutes.healthDashboard))),
 
     //Second time for the course content
     GetPage(name: assignmentScreen, page: AssignmentScreen.route),

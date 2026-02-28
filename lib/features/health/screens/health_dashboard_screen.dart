@@ -1,3 +1,4 @@
+import 'package:fitflow/features/health/screens/health_consent_screen.dart';
 import 'package:fitflow/common/widgets/custom_app_bar.dart';
 import 'package:fitflow/common/widgets/custom_button.dart';
 import 'package:fitflow/common/widgets/custom_card.dart';
@@ -12,10 +13,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 class HealthDashboardScreen extends StatelessWidget {
   const HealthDashboardScreen({super.key});
 
-  static Widget route() => BlocProvider(
-        create: (_) => HealthCubit()..checkAuthorization(),
-        child: const HealthDashboardScreen(),
-      );
+  static Widget route() => const _HealthDashboardWrapper();
 
   @override
   Widget build(BuildContext context) {
@@ -329,6 +327,46 @@ class HealthDashboardScreen extends StatelessWidget {
               ),
         ),
       ],
+    );
+  }
+}
+
+class _HealthDashboardWrapper extends StatefulWidget {
+  const _HealthDashboardWrapper();
+
+  @override
+  State<_HealthDashboardWrapper> createState() => _HealthDashboardWrapperState();
+}
+
+class _HealthDashboardWrapperState extends State<_HealthDashboardWrapper> {
+  bool? _hasConsent;
+
+  @override
+  void initState() {
+    super.initState();
+    _checkConsent();
+  }
+
+  Future<void> _checkConsent() async {
+    final consented = await HealthConsentScreen.hasConsented();
+    setState(() => _hasConsent = consented);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (_hasConsent == null) {
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
+
+    if (!_hasConsent!) {
+      return HealthConsentScreen(
+        onConsented: () => setState(() => _hasConsent = true),
+      );
+    }
+
+    return BlocProvider(
+      create: (_) => HealthCubit()..checkAuthorization(),
+      child: const HealthDashboardScreen(),
     );
   }
 }
