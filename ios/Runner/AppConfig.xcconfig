@@ -1,7 +1,7 @@
 
 
 /// Please Add Configuration details directly here instead of changing in Files
-APP_NAME = eLMS
+APP_NAME = Fit Flow
 REVERSE_CLIENT_ID = IDHERE
 ENCODED_APP_ID = IDHERE
 DEEP_LINK_SCHEMA = elms

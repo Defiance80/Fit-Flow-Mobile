@@ -17,7 +17,7 @@ class CustomCard extends StatelessWidget {
       required this.child,
       this.border = 1.0,
       this.borderColor,
-      this.borderRadius = 8.0,
+      this.borderRadius = 12.0,
       this.margin = .zero,
       this.padding = .zero,
       this.height,
