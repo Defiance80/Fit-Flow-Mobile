@@ -573,5 +573,21 @@
     "noTransactionsFound": "No transactions found",
     "date": "Date",
     "type": "Type",
-    "verifyWithdrawalDetails": "Verify withdrawal amount and bank details."
+    "verifyWithdrawalDetails": "Verify withdrawal amount and bank details.",
+    "healthAndWellness": "Health & Wellness",
+    "connectHealthData": "Connect Your Health Data",
+    "connectHealthDescription": "Link Apple Health or Google Health Connect so your trainer can personalize your programs based on your sleep, heart rate, and activity levels.",
+    "connectHealthApp": "Connect Health App",
+    "todaysOverview": "Today's Overview",
+    "steps": "Steps",
+    "calories": "Calories",
+    "avgHeartRate": "Avg HR",
+    "sleep": "Sleep",
+    "recoveryIndicators": "Recovery Indicators",
+    "restingHR": "Resting HR",
+    "hrv": "HRV",
+    "elevatedHRWarning": "Resting heart rate is elevated — consider lighter intensity today.",
+    "workoutsToday": "Workouts Today",
+    "healthDataSynced": "Health data synced",
+    "noHealthData": "No health data available"
 }

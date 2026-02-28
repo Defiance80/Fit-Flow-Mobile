@@ -158,6 +158,7 @@ class AppLabels {
   static const String students = 'students';
   static const String courses = 'courses';
   static const String home = 'home';
+  static const String healthAndWellness = 'healthAndWellness';
   static const String forgotPassword = 'forgot-password';
   static const String enterPhoneNumberForReset = 'enterPhoneNumberForReset';
   static const String enterEmailForReset = 'enterEmailForReset';

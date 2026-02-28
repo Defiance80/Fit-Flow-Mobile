@@ -10,6 +10,7 @@ import 'package:fitflow/features/home/cubits/fetch_slider_cubit.dart';
 import 'package:fitflow/features/home/repositories/slider_repository.dart';
 import 'package:fitflow/features/home/screens/home_screen.dart';
 import 'package:fitflow/features/main/widgets/custom_bottom_nav_bar.dart';
+import 'package:fitflow/features/health/screens/health_dashboard_screen.dart';
 import 'package:fitflow/features/profile/screens/profile_screen.dart';
 import 'package:fitflow/features/my_learning/screens/my_learning_screen.dart';
 import 'package:fitflow/features/cart/screens/cart_screen.dart';
@@ -111,6 +112,7 @@ class _MainScreenState extends State<MainScreen>
             create: (context) => ApplyCouponCubit(),
             child: const CartScreen(),
           ),
+          HealthDashboardScreen.route(),
           const ProfileScreen(),
         ],
       ),

@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:fitflow/common/widgets/custom_text.dart';
 import 'package:get/get.dart';
 
+
 class CustomBottomNavBar extends StatelessWidget {
   final Function(int index) onTabSelected;
   final int selectedTabIndex;
@@ -24,6 +25,11 @@ class CustomBottomNavBar extends StatelessWidget {
       loginRequired: true,
     ),
     (svgPath: AppIcons.cart, labelKey: AppLabels.cart.tr, loginRequired: true),
+    (
+      svgPath: AppIcons.health,
+      labelKey: AppLabels.healthAndWellness.tr,
+      loginRequired: true,
+    ),
     (
       svgPath: AppIcons.profile,
       labelKey: AppLabels.profile.tr,

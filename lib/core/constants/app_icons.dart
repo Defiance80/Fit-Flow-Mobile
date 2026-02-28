@@ -58,6 +58,7 @@ abstract class AppIcons {
   static final String cart = _getSvg('cart');
   static final String myLearning = _getSvg('my_learning');
   static final String profile = _getSvg('profile');
+  static final String health = _getSvg('health');
 
   static final String hat = _getSvg('hat');
   static final String book = _getSvg('book');
