@@ -419,12 +419,28 @@ class CourseCard extends StatelessWidget {
     CourseModel course, {
     double? fontSize,
   }) {
-    return CustomText(
-      '${AppLabels.by.tr} : ${course.authorName}',
-      style: Theme.of(context).textTheme.bodySmall!.copyWith(
-        fontSize: fontSize,
-        color: Theme.of(context).colorScheme.onSurface.withAlpha(200),
-      ),
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        CustomImage(
+          AppIcons.hat,
+          width: 13,
+          height: 13,
+          color: Theme.of(context).colorScheme.onSurface.withAlpha(160),
+        ),
+        const SizedBox(width: 4),
+        Flexible(
+          child: CustomText(
+            '${AppLabels.by.tr} : ${course.authorName}',
+            style: Theme.of(context).textTheme.bodySmall!.copyWith(
+              fontSize: fontSize,
+              color: Theme.of(context).colorScheme.onSurface.withAlpha(200),
+            ),
+            maxLines: 1,
+            ellipsis: true,
+          ),
+        ),
+      ],
     );
   }
 
@@ -601,13 +617,25 @@ class CourseCard extends StatelessWidget {
           crossAxisAlignment: .start,
           children: [
             if (course.isFree) ...[
-              CustomText(
-                'Free',
-                style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                  color: context.color.success,
-                  fontSize: fontSize,
-                  fontWeight: .w600,
-                ),
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  CustomImage(
+                    AppIcons.tag,
+                    width: 14,
+                    height: 14,
+                    color: context.color.success,
+                  ),
+                  const SizedBox(width: 4),
+                  CustomText(
+                    'Free',
+                    style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                      color: context.color.success,
+                      fontSize: fontSize,
+                      fontWeight: .w600,
+                    ),
+                  ),
+                ],
               ),
             ] else ...[
               CustomText(

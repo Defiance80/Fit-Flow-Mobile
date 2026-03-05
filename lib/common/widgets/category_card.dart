@@ -60,13 +60,25 @@ class CategoryCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 4),
-                    CustomText(
-                      category.courseCount == 0
-                          ? AppLabels.noCourses.tr
-                          : '${category.courseCount}+ ${AppLabels.courses.tr}',
-                      style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-                        color: context.color.onSurface.withValues(alpha: 0.6),
-                      ),
+                    Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        CustomImage(
+                          AppIcons.book,
+                          width: 13,
+                          height: 13,
+                          color: context.color.onSurface.withValues(alpha: 0.5),
+                        ),
+                        const SizedBox(width: 4),
+                        CustomText(
+                          category.courseCount == 0
+                              ? AppLabels.noCourses.tr
+                              : '${category.courseCount}+ ${AppLabels.courses.tr}',
+                          style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                            color: context.color.onSurface.withValues(alpha: 0.6),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),

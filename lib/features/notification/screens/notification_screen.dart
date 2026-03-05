@@ -81,6 +81,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
               children: [
                 Expanded(
                   child: ListView.separated(
+                    cacheExtent: 500,
                     controller: _scrollController,
                     itemCount: state.data.length,
                     padding: const .all(16),

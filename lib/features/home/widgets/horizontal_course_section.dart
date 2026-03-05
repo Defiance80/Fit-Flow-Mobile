@@ -248,7 +248,7 @@ class Sections extends StatelessWidget {
                   child: CustomText(
                     title,
                     style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                      fontWeight: .w500,
+                      fontWeight: .w600,
                     ),
                   ),
                 ),
@@ -258,7 +258,8 @@ class Sections extends StatelessWidget {
                     child: CustomText(
                       AppLabels.seeAll.tr,
                       style: Theme.of(context).textTheme.labelLarge!.copyWith(
-                        color: context.color.onSurface.withValues(alpha: 0.8),
+                        color: context.color.primary,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
@@ -274,6 +275,7 @@ class Sections extends StatelessWidget {
                 shrinkWrap: true,
                 padding: const .symmetric(horizontal: 16),
                 scrollDirection: .horizontal,
+              cacheExtent: 500,
                 separatorBuilder: (context, index) {
                   return const SizedBox(width: 8);
                 },
@@ -290,6 +292,7 @@ class Sections extends StatelessWidget {
                 shrinkWrap: true,
                 padding: const .symmetric(horizontal: 16),
                 scrollDirection: .horizontal,
+              cacheExtent: 500,
                 itemBuilder: (context, index) {
                   return SizedBox(
                     width: itemWidth,

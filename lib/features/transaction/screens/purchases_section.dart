@@ -50,6 +50,7 @@ class _PurchasesSectionState extends State<PurchasesSection>
           return RefreshIndicator(
             onRefresh: _onRefresh,
             child: ListView.separated(
+              cacheExtent: 500,
               padding: const .all(16),
               itemCount: state.data.length,
               separatorBuilder: (context, index) {

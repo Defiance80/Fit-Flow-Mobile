@@ -134,7 +134,7 @@ class _CustomCarouselSliderWidgetState
                       width: value == index ? 25 : 8,
                       height: 8,
                       decoration: BoxDecoration(
-                        color: value == index ? Colors.black : Colors.grey[400],
+                        color: value == index ? Theme.of(context).colorScheme.primary : Colors.grey[350],
                         borderRadius: BorderRadius.circular(8),
                       ),
                     ),

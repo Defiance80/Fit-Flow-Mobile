@@ -128,6 +128,7 @@ class _WishlistScreenState extends State<WishlistScreen> {
             );
           }
           return ListView.separated(
+            cacheExtent: 500,
             controller: _scrollController,
             padding: const .all(16),
             itemCount: state.data.length + (context.read<FetchWishlistCubit>().hasMore ? 1 : 0),
