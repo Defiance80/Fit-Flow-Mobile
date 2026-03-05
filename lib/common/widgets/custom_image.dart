@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:fitflow/core/configs/app_settings.dart';
 import 'package:fitflow/core/constants/app_icons.dart';
 import 'package:fitflow/utils/extensions/context_extension.dart';
 import 'package:flutter/material.dart';
@@ -88,9 +89,17 @@ class CustomImage extends StatelessWidget {
       );
     }
 
-    final bool isNetworked = image.startsWith('http');
-    final bool isSvg = image.endsWith('.svg');
-    final bool isFile = File(image).existsSync();
+    // Handle relative URLs from API (e.g. "/storage/categories/image.jpg")
+    debugPrint('CustomImage: $image');
+    final String resolvedImage = (!image.startsWith('http') &&
+            !image.startsWith('assets/') &&
+            image.startsWith('/'))
+        ? '${AppSettings.baseUrl}$image'
+        : image;
+
+    final bool isNetworked = resolvedImage.startsWith('http');
+    final bool isSvg = resolvedImage.endsWith('.svg');
+    final bool isFile = File(resolvedImage).existsSync();
     return Container(
       width: width,
       height: height,
@@ -103,7 +112,7 @@ class CustomImage extends StatelessWidget {
       ),
       child: switch ((isNetworked, isSvg, isFile)) {
         (false, false, true) => Image.file(
-          File(image),
+          File(resolvedImage),
           width: width,
           height: height,
           fit: fit,
@@ -111,7 +120,7 @@ class CustomImage extends StatelessWidget {
           errorBuilder: (_, o, s) => buildErrorWidget(),
         ),
         (false, false, false) => Image.asset(
-          image,
+          resolvedImage,
           width: width,
           height: height,
           fit: fit,
@@ -121,7 +130,7 @@ class CustomImage extends StatelessWidget {
           matchTextDirection: true,
         ),
         (false, true, _) => SvgPicture.asset(
-          image,
+          resolvedImage,
           width: width,
           height: height,
           colorFilter: colorFilter,
@@ -135,11 +144,11 @@ class CustomImage extends StatelessWidget {
           height: height,
           fit: fit,
           alignment: alignment,
-          imageUrl: image,
+          imageUrl: resolvedImage,
           errorWidget: (_, s, o) => buildErrorWidget(),
           placeholder: (_, s) => buildPlaceholder(),
-          memCacheHeight: cacheHeight?.toInt() ?? height?.toInt(),
-          memCacheWidth: cacheWidth?.toInt() ?? width?.toInt(),
+          memCacheHeight: cacheHeight?.toInt() ?? (height != null && height!.isFinite ? height!.toInt() : null),
+          memCacheWidth: cacheWidth?.toInt() ?? (width != null && width!.isFinite ? width!.toInt() : null),
           fadeInDuration: const Duration(milliseconds: 250),
           fadeOutDuration: const Duration(milliseconds: 200),
           imageBuilder: (context, imageProvider) => Container(
@@ -153,7 +162,7 @@ class CustomImage extends StatelessWidget {
           ),
         ),
         (true, true, _) => SvgPicture.network(
-          image,
+          resolvedImage,
           width: width,
           height: height,
           colorFilter: colorFilter,

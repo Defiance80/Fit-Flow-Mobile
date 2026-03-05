@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:fitflow/common/enums.dart';
 import 'package:fitflow/common/widgets/custom_button.dart';
 import 'package:fitflow/common/widgets/custom_card.dart';

@@ -20,7 +20,7 @@ class HealthService {
     HealthDataType.STEPS,
     HealthDataType.DISTANCE_DELTA,
     HealthDataType.TOTAL_CALORIES_BURNED,
-    HealthDataType.ACTIVE_CALORIES_BURNED,
+    HealthDataType.ACTIVE_ENERGY_BURNED,
     HealthDataType.SLEEP_ASLEEP,
     HealthDataType.SLEEP_AWAKE,
     HealthDataType.SLEEP_IN_BED,
@@ -274,7 +274,7 @@ class HealthSummary {
           sleep += dp.dateTo.difference(dp.dateFrom);
           break;
         case HealthDataType.TOTAL_CALORIES_BURNED:
-        case HealthDataType.ACTIVE_CALORIES_BURNED:
+        case HealthDataType.ACTIVE_ENERGY_BURNED:
           calories += numVal;
           break;
         case HealthDataType.WEIGHT:

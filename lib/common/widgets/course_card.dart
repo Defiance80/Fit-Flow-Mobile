@@ -168,7 +168,8 @@ class CourseCard extends StatelessWidget {
                               ),
                               child: _buildRatings(course),
                             ),
-                          )
+                          ),
+                        )
                         : null,
                   ),
                 ),
@@ -512,6 +513,7 @@ class CourseCard extends StatelessWidget {
           fit: .none,
           color: context.color.onSurface,
         ),
+      ),
       ),
     );
   }

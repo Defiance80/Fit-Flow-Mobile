@@ -27,7 +27,7 @@ class CustomBottomNavBar extends StatelessWidget {
     (svgPath: AppIcons.cart, labelKey: AppLabels.cart.tr, loginRequired: true),
     (
       svgPath: AppIcons.health,
-      labelKey: AppLabels.healthAndWellness.tr,
+      labelKey: 'Health',
       loginRequired: true,
     ),
     (

@@ -14,17 +14,6 @@ class HealthConsentScreen extends StatefulWidget {
 
   const HealthConsentScreen({super.key, required this.onConsented});
 
-  @override
-  State<HealthConsentScreen> createState() => _HealthConsentScreenState();
-}
-
-class _HealthConsentScreenState extends State<HealthConsentScreen> {
-  bool _shareActivity = true;
-  bool _shareHeartRate = true;
-  bool _shareSleep = true;
-  bool _shareWeight = false;
-  bool _agreedToTerms = false;
-
   static const String _consentKey = 'health_data_consent_given';
 
   /// Check if consent was already given
@@ -39,11 +28,22 @@ class _HealthConsentScreenState extends State<HealthConsentScreen> {
     await prefs.setBool(_consentKey, false);
   }
 
+  @override
+  State<HealthConsentScreen> createState() => _HealthConsentScreenState();
+}
+
+class _HealthConsentScreenState extends State<HealthConsentScreen> {
+  bool _shareActivity = true;
+  bool _shareHeartRate = true;
+  bool _shareSleep = true;
+  bool _shareWeight = false;
+  bool _agreedToTerms = false;
+
   Future<void> _giveConsent() async {
     if (!_agreedToTerms) return;
 
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setBool(_consentKey, true);
+    await prefs.setBool(HealthConsentScreen._consentKey, true);
 
     // Store granular preferences
     await prefs.setBool('health_share_activity', _shareActivity);
