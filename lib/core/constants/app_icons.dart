@@ -5,9 +5,9 @@ abstract class AppIcons {
   static final String appLogo = 'assets/fitflow-logo.png';
   static final String onboardingBackground = _getSvg('onboarding_bg');
   static final String arrowRight = _getSvg('arrow_right');
-  static final String onboarding1 = _getSvg('onboarding_1');
-  static final String onboarding2 = _getSvg('onboarding_2');
-  static final String onboarding3 = _getSvg('onboarding_3');
+  static final String onboarding1 = _getPng('onboarding_1');
+  static final String onboarding2 = _getPng('onboarding_2');
+  static final String onboarding3 = _getPng('onboarding_3');
 
   // Social login icons
   static final String googleIcon = _getSvg('google_icon');
@@ -131,6 +131,7 @@ abstract class AppIcons {
 
   //png images
   static final String quiz = _getPng('quiz');
+  static final String defaultAvatar = _getPng('default_avatar');
   static final String walletBG = _getPng('wallet_bg');
 
   static String success = _getSvg('success');

@@ -18,7 +18,7 @@ class HealthDashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(title: 'Health & Wellness'),
+      appBar: const CustomAppBar(title: 'Health'),
       body: BlocBuilder<HealthCubit, HealthState>(
         builder: (context, state) {
           if (state is HealthLoading) {

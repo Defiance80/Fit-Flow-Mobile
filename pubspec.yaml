@@ -82,6 +82,11 @@ flutter:
     - assets/images/quiz.png
     - assets/images/certificate_bg.png
     - assets/images/wallet_bg.png
+    - assets/images/onboarding_1.png
+    - assets/images/onboarding_2.png
+    - assets/images/onboarding_3.png
+    - assets/images/default_avatar.png
+    - assets/images/review_profile.png
     - assets/fitflow-logo.png
 
 
