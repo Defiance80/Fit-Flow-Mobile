@@ -36,7 +36,7 @@ class CourseCard extends StatelessWidget {
       builder: (BuildContext context, CourseCardStyle style) {
         return GestureDetector(
           onTap: onTap,
-          child: RepaintBoundary(child: CustomCard(
+          child: CustomCard(
             width: 302,
             child: Column(
               crossAxisAlignment: .start,
@@ -82,7 +82,7 @@ class CourseCard extends StatelessWidget {
                     ],
                   ),
                 ),
-              ]),
+              ],
             ),
           ),
         );
@@ -103,7 +103,7 @@ class CourseCard extends StatelessWidget {
       builder: (BuildContext context, CourseCardStyle style) {
         return GestureDetector(
           onTap: onTap,
-          child: RepaintBoundary(child: CustomCard(
+          child: CustomCard(
             width: width,
             height: height,
             borderRadius: radius ?? 8,
@@ -160,7 +160,7 @@ class CourseCard extends StatelessWidget {
                         ? Positioned(
                             bottom: 4,
                             right: 4,
-                            child: RepaintBoundary(child: CustomCard(
+                            child: CustomCard(
                               borderRadius: 4,
                               padding: const EdgeInsetsDirectional.symmetric(
                                 vertical: 2,
@@ -172,7 +172,7 @@ class CourseCard extends StatelessWidget {
                         : null,
                   ),
                 ),
-              ]),
+              ],
             ),
           ),
         );
@@ -192,7 +192,7 @@ class CourseCard extends StatelessWidget {
         return GestureDetector(
           onTap: onTap,
           behavior: .opaque,
-          child: RepaintBoundary(child: CustomCard(
+          child: CustomCard(
             width: context.screenWidth,
             padding: const .all(8),
             borderRadius: 10,
@@ -238,7 +238,7 @@ class CourseCard extends StatelessWidget {
                         )
                       : null,
                 ),
-              ]),
+              ],
             ),
           ),
         );
@@ -481,7 +481,7 @@ class CourseCard extends StatelessWidget {
         ),
       ],
       surfaceTintColor: context.color.primary,
-      child: RepaintBoundary(child: CustomCard(
+      child: CustomCard(
         width: 24,
         height: 24,
         borderColor: context.color.onSurface.withValues(alpha: 0.2),
