@@ -1,4 +1,5 @@
 import 'package:fitflow/common/widgets/custom_card.dart';
+import 'package:fitflow/core/constants/app_colors.dart';
 import 'package:fitflow/core/constants/app_icons.dart';
 import 'package:fitflow/core/constants/app_labels.dart';
 import 'package:flutter/material.dart';
@@ -27,14 +28,18 @@ class CategoryCard extends StatelessWidget {
       child: CustomCard(
         child: Container(
           width: isFullCard ? double.infinity : null,
-          padding: const .all(8),
+          padding: const EdgeInsets.all(8),
           child: Row(
-            mainAxisSize: .min,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Container(
                 width: 52,
                 height: 52,
                 margin: const EdgeInsetsDirectional.only(end: 16),
+                decoration: BoxDecoration(
+                  color: AppColors.primaryColor.withOpacity(0.08),
+                  borderRadius: BorderRadius.circular(8),
+                ),
                 child: CustomImage(
                   category.image,
                   width: 52,
@@ -45,13 +50,13 @@ class CategoryCard extends StatelessWidget {
               Expanded(
                 flex: isFullCard ? 1 : 0,
                 child: Column(
-                  crossAxisAlignment: .start,
-                  mainAxisSize: .min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     CustomText(
                       category.name,
                       style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                        fontWeight: .w500,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                     const SizedBox(height: 4),

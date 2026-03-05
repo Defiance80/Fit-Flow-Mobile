@@ -16,16 +16,16 @@ class AppColors {
   static const Color errorColor = Color(0xffDB3D26);
 
   ///Dark mode colors
-  static const Color darkPrimaryColor = Color(0xFF0D9488); // Teal 600 (same as light)
+  static const Color darkPrimaryColor = Color(0xFF0D9488); // Teal 600
   static const Color darkSecondaryColor = Color(0xFF1E293B); // Slate-800 surface
-  static const Color darkBackgroundColor = Color(0xFF0F172A); // Navy (matches website)
+  static const Color darkBackgroundColor = Color(0xFF0F172A); // Navy
   static const Color darkBorderColor = Color(0xFF334155); // Slate-700
   static const Color darkErrorColor = Color(0xffDB3D26);
 
   ///Accent colors
   static const Color accentColor = Color(0xFFF97316); // Warm Coral/Orange
-  static const Color darkAccentColor = Color(0xFFF97316); // Warm Coral/Orange (same in dark)
-  static const Color premiumGold = Color(0xFFD4AF37); // Premium Gold
+  static const Color darkAccentColor = Color(0xFFF97316);
+  static const Color premiumGold = Color(0xFFD4AF37);
 
   ///Custom constant colors
   static const Color infoColor = Color(0xff0186D8);

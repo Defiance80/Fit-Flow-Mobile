@@ -138,10 +138,10 @@ class CustomImage extends StatelessWidget {
           imageUrl: image,
           errorWidget: (_, s, o) => buildErrorWidget(),
           placeholder: (_, s) => buildPlaceholder(),
-          memCacheHeight: cacheHeight?.toInt(),
-          memCacheWidth: cacheWidth?.toInt(),
-          fadeInDuration: const Duration(milliseconds: 300),
-          fadeOutDuration: const Duration(milliseconds: 300),
+          memCacheHeight: cacheHeight?.toInt() ?? height?.toInt(),
+          memCacheWidth: cacheWidth?.toInt() ?? width?.toInt(),
+          fadeInDuration: const Duration(milliseconds: 250),
+          fadeOutDuration: const Duration(milliseconds: 200),
           imageBuilder: (context, imageProvider) => Container(
             decoration: BoxDecoration(
               image: DecorationImage(

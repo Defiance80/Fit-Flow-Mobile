@@ -5,6 +5,7 @@ class CustomCard extends StatelessWidget {
   final Widget child;
   final double border;
   final double borderRadius;
+  final List<BoxShadow>? boxShadow;
   final Color? borderColor;
   final EdgeInsetsGeometry margin;
   final EdgeInsetsGeometry padding;
@@ -23,7 +24,8 @@ class CustomCard extends StatelessWidget {
       this.height,
       this.color,
       this.width,
-      this.alignment});
+      this.alignment,
+      this.boxShadow});
 
   @override
   Widget build(BuildContext context) {
@@ -34,18 +36,19 @@ class CustomCard extends StatelessWidget {
       alignment: alignment,
       height: height,
       clipBehavior: Clip.antiAlias,
+      foregroundDecoration: BoxDecoration(
+          border: Border.all(
+              color: borderColor ?? Colors.black.withOpacity(0.04),
+              width: border > 0 ? 0.5 : 0),
+          borderRadius: BorderRadius.circular(borderRadius)),
       decoration: BoxDecoration(
         color: color ?? context.color.surface,
         borderRadius: BorderRadius.circular(borderRadius),
-        border: Border.all(
-            color: borderColor ?? const Color(0xFFE2E8F0), 
-            width: border),
-        boxShadow: [
+        boxShadow: boxShadow ?? [
           BoxShadow(
-            color: Colors.black.withOpacity(0.04),
+            color: Colors.black.withOpacity(0.06),
             blurRadius: 8,
             offset: const Offset(0, 2),
-            spreadRadius: 0,
           ),
         ],
       ),

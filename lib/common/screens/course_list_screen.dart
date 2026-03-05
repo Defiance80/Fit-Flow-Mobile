@@ -114,6 +114,7 @@ class _CourseListScreenState extends State<CourseListScreen>
         },
         child: CustomScrollView(
           controller: scrollController,
+          cacheExtent: 500,
           slivers: [
             if (widget.screenType is CourseListForCategory) ...[
               _buildSubCategories(),

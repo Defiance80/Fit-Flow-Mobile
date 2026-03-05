@@ -278,13 +278,24 @@ class _HomeScreenState extends State<HomeScreen>
     return GestureDetector(
       onTap: _onTapSearch,
       child: Padding(
-        // ignore: prefer_const_constructors
-        padding: .all(16).subtract(const EdgeInsetsGeometry.only(bottom: 16)),
-        child: CustomTextFormField(
-          hintText: AppLabels.whatDoYouWantToLearn.tr,
-          radius: 8,
-          enabled: false,
-          prefixIcon: AppIcons.search,
+        padding: const EdgeInsets.all(16).subtract(const EdgeInsets.only(bottom: 16)),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(8),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.05),
+                blurRadius: 8,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: CustomTextFormField(
+            hintText: AppLabels.whatDoYouWantToLearn.tr,
+            radius: 8,
+            enabled: false,
+            prefixIcon: AppIcons.search,
+          ),
         ),
       ),
     );

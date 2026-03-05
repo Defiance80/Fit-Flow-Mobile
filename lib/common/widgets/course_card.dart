@@ -446,15 +446,20 @@ class CourseCard extends StatelessWidget {
     double? radius,
   }) {
     return Container(
-      padding: const .symmetric(horizontal: 8, vertical: 4),
+      padding: const .symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.primary.withAlpha(20),
-        borderRadius: BorderRadius.circular(radius ?? 4),
+        color: Theme.of(context).colorScheme.primary.withAlpha(30),
+        borderRadius: BorderRadius.circular(radius ?? 6),
+        border: Border.all(
+          color: Theme.of(context).colorScheme.primary.withAlpha(40),
+          width: 0.5,
+        ),
       ),
       child: CustomText(
         text,
         style: Theme.of(context).textTheme.labelSmall!.copyWith(
           fontSize: fontSize,
+          fontWeight: FontWeight.w600,
           color: Theme.of(context).colorScheme.primary,
         ),
       ),

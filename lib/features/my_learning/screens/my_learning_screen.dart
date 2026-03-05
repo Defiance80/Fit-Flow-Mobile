@@ -202,6 +202,7 @@ class _MyLearningTabViewState extends State<_MyLearningTabView>
                   child: ListView.separated(
                     padding: const .all(16),
                     shrinkWrap: true,
+                    cacheExtent: 500,
                     physics: const AlwaysScrollableScrollPhysics(),
                     controller: _scrollController,
 

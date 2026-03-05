@@ -48,7 +48,16 @@ class CustomBottomNavBar extends StatelessWidget {
           (deviceBottomPadding < 28 ? 18 : (deviceBottomPadding - 12)),
       padding: .zero,
       margin: .zero,
-      color: context.color.surface,
+      decoration: BoxDecoration(
+        color: context.color.surface,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.06),
+            blurRadius: 10,
+            offset: const Offset(0, -2),
+          ),
+        ],
+      ),
       child: Row(
         crossAxisAlignment: .stretch,
         children: List.generate(
