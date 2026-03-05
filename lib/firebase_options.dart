@@ -63,6 +63,6 @@ class DefaultFirebaseOptions {
     messagingSenderId: '334212861631',
     projectId: 'fitflow-2703e',
     storageBucket: 'fitflow-2703e.firebasestorage.app',
-    iosBundleId: 'com.wrteam.elms',
+    iosBundleId: 'com.fitflow.app',
   );
 }

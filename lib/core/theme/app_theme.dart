@@ -8,10 +8,107 @@ class AppTheme {
   bool isDarkMode = false;
   static const String fontFamily = 'Geist';
 
+  // Helper method to create text theme
+  static TextTheme _createTextTheme() {
+    return const TextTheme(
+      displayLarge: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 57, 
+        fontWeight: FontWeight.w800, 
+        height: 1.12
+      ),
+      displayMedium: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 45, 
+        fontWeight: FontWeight.w800, 
+        height: 1.16
+      ),
+      displaySmall: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 36, 
+        fontWeight: FontWeight.w700, 
+        height: 1.22
+      ),
+      headlineLarge: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 32, 
+        fontWeight: FontWeight.w800, 
+        height: 1.25
+      ),
+      headlineMedium: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 28, 
+        fontWeight: FontWeight.w800, 
+        height: 1.29
+      ),
+      headlineSmall: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 24, 
+        fontWeight: FontWeight.w700, 
+        height: 1.33
+      ),
+      titleLarge: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 22, 
+        fontWeight: FontWeight.w700, 
+        height: 1.27
+      ),
+      titleMedium: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 16, 
+        fontWeight: FontWeight.w700, 
+        height: 1.50
+      ),
+      titleSmall: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 14, 
+        fontWeight: FontWeight.w700, 
+        height: 1.43
+      ),
+      bodyLarge: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 16, 
+        fontWeight: FontWeight.w500, 
+        height: 1.50
+      ),
+      bodyMedium: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 14, 
+        fontWeight: FontWeight.w500, 
+        height: 1.43
+      ),
+      bodySmall: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 12, 
+        fontWeight: FontWeight.w500, 
+        height: 1.33
+      ),
+      labelLarge: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 14, 
+        fontWeight: FontWeight.w700, 
+        height: 1.43
+      ),
+      labelMedium: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 12, 
+        fontWeight: FontWeight.w700, 
+        height: 1.33
+      ),
+      labelSmall: TextStyle(
+        fontFamily: fontFamily, 
+        fontSize: 11, 
+        fontWeight: FontWeight.w700, 
+        height: 1.45
+      ),
+    );
+  }
+
   factory AppTheme.light(BuildContext context) {
     return AppTheme(ThemeData(
       fontFamily: fontFamily,
       useMaterial3: true,
+      textTheme: _createTextTheme(),
       scaffoldBackgroundColor: AppColors.backgroundColor,
       colorScheme: const ColorScheme.light().copyWith(
           primary: AppColors.primaryColor,
@@ -29,7 +126,7 @@ class AppTheme {
         titleTextStyle: TextStyle(
           fontFamily: fontFamily,
           fontSize: 18,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.w700,
           color: Color(0xFF0F172A),
         ),
       ),
@@ -52,7 +149,7 @@ class AppTheme {
           textStyle: const TextStyle(
             fontFamily: fontFamily,
             fontSize: 16,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w700,
           ),
         ),
       ),
@@ -88,6 +185,7 @@ class AppTheme {
     return AppTheme(ThemeData(
       fontFamily: fontFamily,
       useMaterial3: true,
+      textTheme: _createTextTheme(),
       scaffoldBackgroundColor: AppColors.darkBackgroundColor,
       dividerTheme: const DividerThemeData(color: AppColors.darkBorderColor),
       appBarTheme: const AppBarTheme(
@@ -97,7 +195,7 @@ class AppTheme {
         titleTextStyle: TextStyle(
           fontFamily: fontFamily,
           fontSize: 18,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.w700,
           color: Colors.white,
         ),
       ),
@@ -120,7 +218,7 @@ class AppTheme {
           textStyle: const TextStyle(
             fontFamily: fontFamily,
             fontSize: 16,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w700,
           ),
         ),
       ),

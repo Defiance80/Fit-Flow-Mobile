@@ -12,9 +12,9 @@ class ShareAppHelper {
   static Future<void> shareApp(BuildContext context) async {
     final box = context.findRenderObject() as RenderBox?;
     try {
-      const String appName = 'ELMS';
+      const String appName = 'Fit Flow';
       const String message =
-          'Check out $appName - Your complete E-Learning Management System!\n\n'
+          'Check out $appName - Your Personal Fitness & Training Platform!\n\n'
           'Download now:\n'
           'Android: [Play Store Link]\n'
           'iOS: [App Store Link]';
